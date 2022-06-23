@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<audio id="myAudio">
+  <source src="Ehhhhhhh-ogg.ogg" type="audio/ogg">
+  <source src="Ehhhhhhh-mp3.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click the buttons to play Ehhhhhhh</p>
+
+<button onclick="playAudio()" type="button">Play Ehhhhhhh</button>
+<!--<button onclick="pauseAudio()" type="button">Pause Audio</button>  -->
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+<!-- don't need this below-->
+/**
+function pauseAudio() { 
+  x.pause(); 
+} 
+**/
+</script>
+
+</body>
+</html>
